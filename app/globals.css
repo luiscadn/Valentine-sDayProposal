@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Eliminamos el estilo del body para que lo controle cada página */
+
+:root {
+  --font-dancing: 'Dancing Script', cursive;
+  --font-montserrat: 'Montserrat', sans-serif;
+}
+
+.font-dancing {
+  font-family: var(--font-dancing);
+}
+
+.font-montserrat {
+  font-family: var(--font-montserrat);
+}
